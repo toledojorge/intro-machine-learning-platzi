@@ -1,6 +1,5 @@
 import random
 
-
 def tirar_dado(numero_de_tiros):
     secuencia_de_tiros = []
 
@@ -9,8 +8,7 @@ def tirar_dado(numero_de_tiros):
         secuencia_de_tiros.append(tiro)
 
     return secuencia_de_tiros
-
-
+    
 def main(numero_de_tiros,numero_de_intentos):
     tiros = []
     for _ in range(numero_de_intentos):
