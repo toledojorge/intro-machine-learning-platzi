@@ -12,7 +12,7 @@ class BorrachoTradicional(Borracho):
         super().__init__(nombre)
 
     # Retorna aleatoriamente el valor (x,y)
-    def caminar():
+    def caminar(self):
         return random.choice([
             (0,1), 
             (0,-1),
